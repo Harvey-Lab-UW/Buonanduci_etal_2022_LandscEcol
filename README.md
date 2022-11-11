@@ -2,6 +2,8 @@
 
 Data accompanying the manuscript 'Fine-scale spatial heterogeneity shapes compensatory responses of a subalpine forest to severe bark beetle outbreak' by Buonanduci, Morris, Agne, Battaglia, and Harvey published in Landscape Ecology. See the main text of the manuscript for complete descriptions of data collection and processing.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7314248.svg)](https://doi.org/10.5281/zenodo.7314248)
+
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This information is licensed under a
