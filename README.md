@@ -36,14 +36,14 @@ This file contains individual tree-level data necessary to run the tree-scale an
 - **Dia_89_04**: annualized diameter increment (cm/year) between 1989 and 2004, calculated as (DBH_04 - DBH_89) / (2004 - 1989).
 - **Dia_04_18**: annualized diameter increment (cm/year) between 2004 and 2018, calculated as (DBH_18 - DBH_04) / (2018 - 2004).
 - **Dia_dif**: difference in annualized diameter increment between the two growth periods, calculated as Dia_04_18 - Dia_89_04.
-- **NDI_89_live**: neighborhood density index (NDI) for all live trees in 1989. Calculated within a 10 m radius of focal tree.
-- **NDI_89_consp**: neighborhood density index (NDI) for all conspecific live trees in 1989. Calculated within a 10 m radius of focal tree.
-- **NDI_89_mort**: neighborhood density index (NDI) for all trees recorded as live in 1989 and dead in 2004. Calculated within a 10 m radius of focal tree.
+- **NDI_89_live**: neighborhood density index (NDI) for all live trees in 1989. Calculated within a 10 m radius of focal tree using DBH recorded in 1989.
+- **NDI_89_consp**: neighborhood density index (NDI) for all conspecific live trees in 1989. Calculated within a 10 m radius of focal tree using DBH recorded in 1989.
+- **NDI_89_mort**: neighborhood density index (NDI) for all trees recorded as live in 1989 and dead in 2004. Calculated within a 10 m radius of focal tree using DBH recorded in 1989.
 - **NDI_89_propconsp**: proportion of NDI contributed by the same species as the focal tree, calculated as NDI_89_consp / NDI_89_live.
 - **NDI_89_propmort**: proportion of NDI that was killed during the growth period, calculated as NDI_89_mort / NDI_89_live.
-- **NDI_04_live**: neighborhood density index (NDI) for all live trees in 2004. Calculated within a 10 m radius of focal tree.
-- **NDI_04_consp**: neighborhood density index (NDI) for all conspecific live trees in 2004. Calculated within a 10 m radius of focal tree.
-- **NDI_04_mort**: neighborhood density index (NDI) for all trees recorded as live in 2004 and dead in 2018. Calculated within a 10 m radius of focal tree.
+- **NDI_04_live**: neighborhood density index (NDI) for all live trees in 2004. Calculated within a 10 m radius of focal tree using DBH recorded in 2004.
+- **NDI_04_consp**: neighborhood density index (NDI) for all conspecific live trees in 2004. Calculated within a 10 m radius of focal tree using DBH recorded in 2004.
+- **NDI_04_mort**: neighborhood density index (NDI) for all trees recorded as live in 2004 and dead in 2018. Calculated within a 10 m radius of focal tree using DBH recorded in 2004.
 - **NDI_04_propconsp**: proportion of NDI contributed by the same species as the focal tree, calculated as NDI_04_consp / NDI_04_live.
 - **NDI_04_propmort**: proportion of NDI that was killed during the growth period, calculated as NDI_04_mort / NDI_04_live.
 - **Slope**: topographic slope (degrees).
